@@ -1,0 +1,1027 @@
+Started GET "/users/1" for ::1 at 2019-06-07 20:07:39 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/users/1"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/" for ::1 at 2019-06-07 20:07:42 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-07 20:07:51 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  Rendered memos/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 463ms (Views: 459.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/create" for ::1 at 2019-06-07 20:07:59 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/create"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/new" for ::1 at 2019-06-07 20:08:09 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:08:13 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:08:32 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:19:49 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2904ms (Views: 2895.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 20:19:53 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  Rendered memos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 20:23:12 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  Rendered memos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 344ms (Views: 335.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:23:14 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:27:07 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:29:24 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 93ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-07 20:30:00 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IipcwxuZywKOodLcrbUEP0JvNHi/nb+mwzc5NKe+07l+jS5HVqLw6h3Qijew7jb6xM4PKymwMLDFqnyRw6oSGw==", "memos"=>{"title"=>"課題やる", "body"=>"MVCの復習"}, "commit"=>"Create"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-07 20:32:40 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IipcwxuZywKOodLcrbUEP0JvNHi/nb+mwzc5NKe+07l+jS5HVqLw6h3Qijew7jb6xM4PKymwMLDFqnyRw6oSGw==", "memos"=>{"title"=>"課題やる", "body"=>"MVCの復習"}, "commit"=>"Create"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:32:45 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 145ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:34:16 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:35:56 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:37:42 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:39:04 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:40:23 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:41:24 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateMemos (20190607114345)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "memos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190607114345_create_memos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190607114345"]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-06-07 11:44:44.783586"], ["updated_at", "2019-06-07 11:44:44.783586"]]
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-06-07 20:48:13 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/takafumi/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  Rendered memos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 388ms (Views: 380.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:48:17 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-07 20:48:23 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dNq2lY4UotzUdoRIJreHRxVDtAUwYV6L05lhKOwpilnsmaUQDxCeWGG438XH9hjCzxEk7K5s12k0TEQylDbWzQ==", "memos"=>{"title"=>"課題やる", "body"=>"MVCの復習"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:13
+  [1m[36mMemo Create (1.6ms)[0m  [1m[32mINSERT INTO "memos" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "課題やる"], ["body", "MVCの復習"], ["created_at", "2019-06-07 11:48:23.768907"], ["updated_at", "2019-06-07 11:48:23.768907"]]
+  ↳ app/controllers/memos_controller.rb:13
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 19ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 20:48:23 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  Rendered memos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mMemo Load (0.8ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/new" for ::1 at 2019-06-07 20:50:22 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/takafumi/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 380ms (Views: 371.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-07 20:50:36 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qYR6fq5f6i/Mu+IWn3lEbHakJZhMzjhk+64holGAuVIxx2n7L1vWq3l1uZt+ONvprPa1cdLDsYYcewS4KZ/lxg==", "memos"=>{"title"=>"ご飯食べる", "body"=>"お腹すいた"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:13
+  [1m[36mMemo Create (0.6ms)[0m  [1m[32mINSERT INTO "memos" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ご飯食べる"], ["body", "お腹すいた"], ["created_at", "2019-06-07 11:50:36.170946"], ["updated_at", "2019-06-07 11:50:36.170946"]]
+  ↳ app/controllers/memos_controller.rb:13
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 20:50:36 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  Rendered memos/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 20:50:37 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-07 20:51:08 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1ohyrnfeT51prptwpS1m6y0HbmLz5CqbNNpsvA+NgCVOy2Er9tpzGdxgwP1EbPlu91X+i23po3nTD0mmd5LcsQ==", "memos"=>{"title"=>"早く寝る", "body"=>"寝不足注意"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:13
+  [1m[36mMemo Create (0.4ms)[0m  [1m[32mINSERT INTO "memos" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "早く寝る"], ["body", "寝不足注意"], ["created_at", "2019-06-07 11:51:08.384223"], ["updated_at", "2019-06-07 11:51:08.384223"]]
+  ↳ app/controllers/memos_controller.rb:13
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 20:51:08 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  Rendered memos/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mMemo Load (0.6ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-06-07 23:44:29 +0900
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/takafumi/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.3ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:5
+  Rendered memos/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 368ms (Views: 355.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:45:02 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:5
+  Rendered memos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:45:58 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.4ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:5
+  Rendered memos/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 107ms (Views: 105.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:49:31 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:5
+  Rendered memos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:50:54 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:51:32 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:51:34 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 52ms (Views: 49.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:51:34 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 59ms (Views: 56.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:51:34 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:51:56 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.3ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 57ms (Views: 55.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:52:16 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 50.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:52:43 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 53ms (Views: 51.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/new" for ::1 at 2019-06-07 23:53:17 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-07 23:53:36 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SI+VvXwAlVjl/T6EQUVYufOi8ngVkhm2tFfvdm0l9GPQzIY4/QSp3FAzZQmgBMc8KfBikYufkFRTgspsFTqo9w==", "memos"=>{"title"=>"明日の準備", "body"=>"朝早いので事前に準備する"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[36mMemo Create (1.2ms)[0m  [1m[32mINSERT INTO "memos" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "明日の準備"], ["body", "朝早いので事前に準備する"], ["created_at", "2019-06-07 14:53:37.000946"], ["updated_at", "2019-06-07 14:53:37.000946"]]
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 23:53:37 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 60.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:03:58 +0900
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/takafumi/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.4ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 355ms (Views: 344.4ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/memos/4" for ::1 at 2019-06-08 01:04:02 +0900
+Processing by MemosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/NsJefcEJHL6feujWusxCwjLj8FKHVC8TaZo/HHxXMegfHv9uj8fmmkMs0hHsAPOjmq0ktww36pLOy1ZFeWdZQ==", "id"=>"4"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[36mMemo Destroy (0.4ms)[0m  [1m[31mDELETE FROM "memos" WHERE "memos"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:04:02 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.4ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 94ms (Views: 91.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/new" for ::1 at 2019-06-08 01:04:37 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-08 01:04:42 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9PGJ2tnQsPREASYyQppeu0dRls9dSHQ/kCZUFpXxIPJssppfWNSMcPHPfb+j28E+nQMGJsNF/d1383EM7e58Zg==", "memos"=>{"title"=>"明日の準備", "body"=>"朝早いので事前に準備する"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[36mMemo Create (0.9ms)[0m  [1m[32mINSERT INTO "memos" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "明日の準備"], ["body", "朝早いので事前に準備する"], ["created_at", "2019-06-07 16:04:42.641766"], ["updated_at", "2019-06-07 16:04:42.641766"]]
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:04:42 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 75ms (Views: 72.7ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/memos/5" for ::1 at 2019-06-08 01:04:46 +0900
+Processing by MemosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YbrP8ll2la77LbqHknWc53vgBJk+2GII+wA14GKuVEY9Hb12FE2uRmhc4myPLq4i/UE/yqj17R79nXBFBrqV5A==", "id"=>"5"}
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[36mMemo Destroy (0.5ms)[0m  [1m[31mDELETE FROM "memos" WHERE "memos"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:04:46 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/memos/1/edit" for ::1 at 2019-06-08 01:15:26 +0900
+Processing by MemosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMemo Load (0.3ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:25
+  Rendering memos/edit.html.erb within layouts/application
+  Rendered memos/edit.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 60ms (Views: 51.2ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/memos/1" for ::1 at 2019-06-08 01:22:01 +0900
+Processing by MemosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"69O4AjwlTJw+ou59Tcrl4sip97Ex4lJ7Tg2FJ1ynwo+3dMqGcR53dK3TtpZQkdcnTgjM4qfP3W1IkMCCOLMDLQ==", "memos"=>{"title"=>"課題", "body"=>"完了"}, "commit"=>"Create", "id"=>"1"}
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[36mMemo Update (0.3ms)[0m  [1m[33mUPDATE "memos" SET "title" = ?, "body" = ?, "updated_at" = ? WHERE "memos"."id" = ?[0m  [["title", "課題"], ["body", "完了"], ["updated_at", "2019-06-07 16:22:01.160000"], ["id", 1]]
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:22:01 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/new" for ::1 at 2019-06-08 01:22:07 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-08 01:22:14 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dhzz/GoRT1jVHxP5DydcBg8c1fH96+0eqsk4W04XKECWX+B56xVz3GDRSHTuZsOD1U5FGGPmZPxNHB1BNgh01A==", "memos"=>{"title"=>"明日の準備", "body"=>"朝早いので事前に準備する"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[36mMemo Create (0.4ms)[0m  [1m[32mINSERT INTO "memos" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "明日の準備"], ["body", "朝早いので事前に準備する"], ["created_at", "2019-06-07 16:22:14.043486"], ["updated_at", "2019-06-07 16:22:14.043486"]]
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:22:14 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/memos/2/edit" for ::1 at 2019-06-08 01:22:27 +0900
+Processing by MemosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:25
+  Rendering memos/edit.html.erb within layouts/application
+  Rendered memos/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/memos/2" for ::1 at 2019-06-08 01:22:38 +0900
+Processing by MemosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zr8+/Hnfxig3fi8uDrFWGgmBY9iNFDlUrvs6nEPNZ/DMDwaAut0D9hAx3+oJ+SQ1g2kNUmDFgkhhBJUTLpMufg==", "memos"=>{"title"=>"ご飯食べた", "body"=>"美味しかった"}, "commit"=>"Create", "id"=>"2"}
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[36mMemo Update (0.6ms)[0m  [1m[33mUPDATE "memos" SET "title" = ?, "body" = ?, "updated_at" = ? WHERE "memos"."id" = ?[0m  [["title", "ご飯食べた"], ["body", "美味しかった"], ["updated_at", "2019-06-07 16:22:38.262388"], ["id", 2]]
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:22:38 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/memos/2/edit" for ::1 at 2019-06-08 01:23:57 +0900
+Processing by MemosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:25
+  Rendering memos/edit.html.erb within layouts/application
+  Rendered memos/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/memos/2" for ::1 at 2019-06-08 01:24:11 +0900
+Processing by MemosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GLnXnpPPk4bw9u5YHeHLaZcMgStJPS1Mr5hWZfUXmXIaCe/iUM1WWNe5HpwaqblGHeTvoaTsllBgZ/nqmEnQ/A==", "memos"=>{"title"=>"ご飯食べる", "body"=>"お腹すいた"}, "commit"=>"Create", "id"=>"2"}
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[36mMemo Update (0.4ms)[0m  [1m[33mUPDATE "memos" SET "title" = ?, "body" = ?, "updated_at" = ? WHERE "memos"."id" = ?[0m  [["title", "ご飯食べる"], ["body", "お腹すいた"], ["updated_at", "2019-06-07 16:24:11.858238"], ["id", 2]]
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:24:11 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/memos/1/edit" for ::1 at 2019-06-08 01:24:18 +0900
+Processing by MemosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:25
+  Rendering memos/edit.html.erb within layouts/application
+  Rendered memos/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/memos/1" for ::1 at 2019-06-08 01:24:30 +0900
+Processing by MemosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p/F9xXipZV7SGgecsp3fhV3EegEuP0RH5jVO1ta1EMdkKJzrF34caA5eDMy+Ynv/arAYDeZ+cuy7LXr920Gu0A==", "memos"=>{"title"=>"課題やる", "body"=>"あと少し"}, "commit"=>"Create", "id"=>"1"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[36mMemo Update (0.6ms)[0m  [1m[33mUPDATE "memos" SET "title" = ?, "body" = ?, "updated_at" = ? WHERE "memos"."id" = ?[0m  [["title", "課題やる"], ["body", "あと少し"], ["updated_at", "2019-06-07 16:24:30.820590"], ["id", 1]]
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:24:30 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/memos/6/edit" for ::1 at 2019-06-08 01:25:14 +0900
+Processing by MemosController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:25
+  Rendering memos/edit.html.erb within layouts/application
+  Rendered memos/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/memos/6" for ::1 at 2019-06-08 01:25:16 +0900
+Processing by MemosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lBGGcuB5DmAEuqyNEBEZbLDYn+c+UDmdEYSBez7mUE5QkQQuAGZQq85ri8DbaGIt1qqyIfqfTTH/5oLfIrk8sg==", "memos"=>{"title"=>"明日の準備", "body"=>"朝早いので事前に準備する"}, "commit"=>"Update", "id"=>"6"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:25:16 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/memos/1" for ::1 at 2019-06-08 01:34:12 +0900
+Processing by MemosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hL2qIPsm1ZMJGuBC1p4eF0BM2MtEoYElHNYjTnOmEIvYGtikth3ue5pruKnLxSzSxu3jmNKMDjMaS2brF7LRKQ==", "id"=>"1"}
+  [1m[36mMemo Load (0.7ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[36mMemo Destroy (0.5ms)[0m  [1m[31mDELETE FROM "memos" WHERE "memos"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:34:12 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.3ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 43ms (Views: 40.9ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/memos/2" for ::1 at 2019-06-08 01:34:13 +0900
+Processing by MemosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CbcyIitmk+SGzOGFY8A8UnPT94u2Uykalwrrt689NjlVEECmZl2oDBW9uW5+mw6X9XLM2CB+pgyRl64Syyn3mw==", "id"=>"2"}
+  [1m[36mMemo Load (0.3ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[36mMemo Destroy (0.4ms)[0m  [1m[31mDELETE FROM "memos" WHERE "memos"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:34:13 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/memos/3" for ::1 at 2019-06-08 01:34:14 +0900
+Processing by MemosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dVt5DvSpxqczw3c7cHJ/o+0mNKSHUXVVwtliNOJNhPEp/AuKuZL9T6CyL9BtKU1ma4cP9xF8+kPERCeRhllFUw==", "id"=>"3"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[36mMemo Destroy (0.5ms)[0m  [1m[31mDELETE FROM "memos" WHERE "memos"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:34:14 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/memos/6" for ::1 at 2019-06-08 01:34:15 +0900
+Processing by MemosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NWfmAEv6HypQFNbgFHXa2+5zLVKsBc2byl55ZIAqODNpwJSEBsEkwsNljgsJLugeaNIWATooQo3MwzzB5D75kQ==", "id"=>"6"}
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[36mMemo Destroy (0.7ms)[0m  [1m[31mDELETE FROM "memos" WHERE "memos"."id" = ?[0m  [["id", 6]]
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:34:15 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.1ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/new" for ::1 at 2019-06-08 01:34:19 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 42ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-08 01:34:42 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oGVdwIp3D5sE7VzvVlRvrF/+aOlWgdrAmmum6dhYHA44Jk5FC3MzH7EjB2K3FfAphaz4AMiMUyJ9voPzoEdAmg==", "memos"=>{"title"=>"課題やる", "body"=>"あと少し"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[36mMemo Create (1.3ms)[0m  [1m[32mINSERT INTO "memos" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "課題やる"], ["body", "あと少し"], ["created_at", "2019-06-07 16:34:42.333136"], ["updated_at", "2019-06-07 16:34:42.333136"]]
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:34:42 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/memos/7/edit" for ::1 at 2019-06-08 01:34:50 +0900
+Processing by MemosController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:25
+  Rendering memos/edit.html.erb within layouts/application
+  Rendered memos/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 43ms (Views: 39.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/memos/7" for ::1 at 2019-06-08 01:35:09 +0900
+Processing by MemosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gCty8rPCZnVsSQqKumytFkvczGsSfNZaKQhIZ26DjW0eYenIppSo3z7Q88GiEauIndAwLh3450TzZkIotNtc2g==", "memos"=>{"title"=>"課題やる", "body"=>"完了"}, "commit"=>"Update", "id"=>"7"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[36mMemo Update (0.4ms)[0m  [1m[33mUPDATE "memos" SET "body" = ?, "updated_at" = ? WHERE "memos"."id" = ?[0m  [["body", "完了"], ["updated_at", "2019-06-07 16:35:09.470290"], ["id", 7]]
+  ↳ app/controllers/memos_controller.rb:32
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:32
+Redirected to http://localhost:3000/
+Completed 302 Found in 19ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:35:09 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/memos/7" for ::1 at 2019-06-08 01:35:18 +0900
+Processing by MemosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"js5zbFhb9ZELDkxNOs9EAAS70YeefuK1gAmZ+11DFAjSaQHoFWDOeZh/FKYnlHbFghrq1AhTbaOGlNxeOVfVqg==", "id"=>"7"}
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT  "memos".* FROM "memos" WHERE "memos"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/memos_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[36mMemo Destroy (0.4ms)[0m  [1m[31mDELETE FROM "memos" WHERE "memos"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/memos_controller.rb:20
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:20
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-08 01:35:18 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.5ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/" for ::1 at 2019-06-10 17:02:09 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-21 18:44:23 +0900
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/takafumi/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (1.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 365ms (Views: 353.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/new" for ::1 at 2019-06-21 18:44:25 +0900
+Processing by MemosController#new as HTML
+  Rendering memos/new.html.erb within layouts/application
+  Rendered memos/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 83ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create" for ::1 at 2019-06-21 18:44:35 +0900
+Processing by MemosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o/S8TGBf6r9/y3LeXpNSMAohAQgN1G+yOPhEWgAUyi47t6/J4VvWO8oFKVO/0s210HOR4ZPZ5lDfLWFAeAuWug==", "memos"=>{"title"=>"d", "body"=>"っっd"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[36mMemo Create (2.8ms)[0m  [1m[32mINSERT INTO "memos" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "d"], ["body", "っっd"], ["created_at", "2019-06-21 09:44:35.072747"], ["updated_at", "2019-06-21 09:44:35.072747"]]
+  ↳ app/controllers/memos_controller.rb:14
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/memos_controller.rb:14
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 5.6ms)
+
+
+Started GET "/" for ::1 at 2019-06-21 18:44:35 +0900
+Processing by MemosController#index as HTML
+  Rendering memos/index.html.erb within layouts/application
+  [1m[36mMemo Load (0.2ms)[0m  [1m[34mSELECT "memos".* FROM "memos"[0m
+  ↳ app/views/memos/index.html.erb:6
+  Rendered memos/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.2ms)
+
+
